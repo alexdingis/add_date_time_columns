@@ -1,25 +1,16 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Mar 08 19:59:31 2018
-
-@author: Alexander
-
-"""
-
-
 import os
 import pandas as pd
 import time
 #
 output_dir = r"C:\path\to\some\output\directory"
 #
-os.chdir(output_dir)
-#
 my_csv     = r"C:\path\to\the\original\Rat_Sightings.csv"
 #
 my_column  = "Created Date"
 #
 my_new_csv = r"C:\path\for\a\new\Rat_Sightings_with_Date_Info.csv"
+#
+os.chdir(output_dir)
 #
 #
 #
