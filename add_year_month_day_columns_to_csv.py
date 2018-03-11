@@ -6,27 +6,20 @@ Created on Thu Mar 08 19:59:31 2018
 
 """
 
-"""
-df['year'], df['month'] = df['date'].dt.year, df['date'].dt.month
-"""
-
-"""
- input_df["Created Date"] = pd.to_datetime(input_df["Created Date"]
-"""
 
 import os
 import pandas as pd
 import time
 #
-output_dir = r"C:\Users\Alexander\Desktop\School\Projects\Zip_Rats\Outputs"
+output_dir = r"C:\path\to\some\output\directory"
 #
 os.chdir(output_dir)
 #
-my_csv     = r"C:\Users\Alexander\Desktop\School\Projects\Zip_Rats\Data\Rat_Sightings.csv"
+my_csv     = r"C:\path\to\the\original\Rat_Sightings.csv"
 #
 my_column  = "Created Date"
 #
-my_new_csv = r"C:\Users\Alexander\Desktop\School\Projects\Zip_Rats\Outputs\test_01.csv"
+my_new_csv = r"C:\path\for\a\new\Rat_Sightings_with_Date_Info.csv"
 #
 #
 #
